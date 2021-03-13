@@ -5,16 +5,16 @@ except:
         # Set true if its VPS
         IS_VPS = False
         
-        API_HASH = ""
-        API_ID = 0
-        BOT_TOKEN = ""
-        BASE_URL_OF_BOT = ""
+        API_HASH = "067164c87c20cd640751c0468e320451"
+        API_ID = 1670927
+        BOT_TOKEN = "1687546924:AAGd8MHc94yjlJkXpDFCai8_l_cTnGGgbTs"
+        BASE_URL_OF_BOT = "http://t.me/PPP_TORRENT_BOT"
 
         # Edit the server port if you want to keep it default though.
         SERVPORT = 80
 
         # ALLOWED USERS [ids of user or supergroup] seperate by commas
-        ALD_USR = []
+        ALD_USR = [872716760,-1001234313180]
         
         # Google Drive Index Link should include the base dir also See readme for more info
         GD_INDEX_URL = False
@@ -23,7 +23,7 @@ except:
         EDIT_SLEEP_SECS = 40
 
         # Telegram Upload Limit (in bytes)
-        TG_UP_LIMIT = 1700000000
+        TG_UP_LIMIT = 1900000000
 
         # Should force evething uploaded into Document
         FORCE_DOCUMENTS = False
@@ -35,7 +35,7 @@ except:
         REMAINING_STR = "▱"
 
         # DB URI for access
-        DB_URI = "dbname=tortk user=postgres password=your-pass host=127.0.0.1 port=5432"
+        DB_URI = "postgres://ewuutnfrqgqnut:10f1681ffc4da94d67ee9d82ff5e242d5592e5d3f8003342bd59792ec7e0e9fe@ec2-52-44-31-100.compute-1.amazonaws.com:5432/d2ghsrt2v1ope3"
         
         # UNCOMMENT THE BELOW LINE WHEN USING CONTAINER AND COMMENT THE UPPER LINE
         #DB_URI = "dbname=tortk user=postgres password=your-pass host=db port=5432"
@@ -49,7 +49,8 @@ except:
 
         # Will be enabled once its set
         # For vps change it to True if config loaded
-        RCLONE_ENABLED = False
+        RCLONE_ENABLED = True
+       
 
         # If the user fails to select whether to use rclone or telegram to upload this will be the deafult.
         DEFAULT_TIMEOUT = "leech"
@@ -64,11 +65,11 @@ except:
         MAX_YTPLAYLIST_SIZE = 20
         
         # Max size of the torrent allowed
-        MAX_TORRENT_SIZE = 10
+        MAX_TORRENT_SIZE = 140
 
         # Set this to your bot username if you want to add the username of your bot at the end of the commands like
         # /leech@TorToolkitBot so the value will be @TorToolkitBot
-        BOT_CMD_POSTFIX = "" 
+        BOT_CMD_POSTFIX = "@PPP_TORRENT_BOT" 
 
         # Time out for the status Delete.
         STATUS_DEL_TOUT = 20
