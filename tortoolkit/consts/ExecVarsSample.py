@@ -17,7 +17,8 @@ except:
         ALD_USR = [872716760,-1001234313180]
         
         # Google Drive Index Link should include the base dir also See readme for more info
-        GD_INDEX_URL = tgbot-drive.pandutorrent.workers.dev/0:
+        GD_INDEX_URL = False
+       
 
         # Time to wait before edit message
         EDIT_SLEEP_SECS = 40
